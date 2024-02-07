@@ -65,6 +65,7 @@ const link: LinkType = ({ appearances, disableLabel = false, overrides = {} } = 
                 alignSelf: 'flex-end',
               },
             },
+            
           },
         ],
       },
@@ -115,6 +116,12 @@ const link: LinkType = ({ appearances, disableLabel = false, overrides = {} } = 
           admin: {
             width: '50%',
           },
+        },
+        {
+          name:'icon',
+          label:'icon',
+          type:'upload',
+          relationTo:'media',
         },
       ],
     })
