@@ -22,7 +22,9 @@
   width: 100%;
   text-align: center;
   background-color: white;
-}@use '../../../_css/queries.scss' as *;
+}
+
+@use '../../../_css/queries.scss' as *;
 
 .card {
   position: relative;
