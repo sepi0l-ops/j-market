@@ -41,7 +41,7 @@ export const cartPage: Partial<Page> = {
         ],
       },
     ],
-    customHero: undefined
+    customHero: undefined,
   },
   layout: [
     {

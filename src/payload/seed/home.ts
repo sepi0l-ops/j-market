@@ -81,7 +81,7 @@ export const home: Partial<Page> = {
       },
     ],
     media: '{{PRODUCT1_IMAGE}}',
-    customHero: undefined
+    customHero: undefined,
   },
   layout: [
     {

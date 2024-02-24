@@ -54,7 +54,8 @@ export default async function Account() {
               },
             ],
           },
-        ]} customHero={undefined}      />
+        ]} customHero={undefined}/>
+        
       <Gutter className={classes.account}>
         <AccountForm />
         <HR />
