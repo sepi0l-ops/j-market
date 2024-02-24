@@ -75,6 +75,7 @@ export const staticHome: Page = {
       },
     ],
     media: '',
+    customHero: undefined
   },
   layout: [
     {
