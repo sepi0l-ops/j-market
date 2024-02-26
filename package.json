@@ -22,11 +22,10 @@
     "payload": "cross-env PAYLOAD_CONFIG_PATH=src/payload/payload.config.ts payload"
   },
   "dependencies": {
-<<<<<<< HEAD
+
     "@monaco-editor/react": "^4.6.0",
-=======
     "@payloadcms/bundler-vite": "^0.1.6",
->>>>>>> 5d9b54fc940ff8f9464c10a1b391e5b43fd1493e
+
     "@payloadcms/bundler-webpack": "^1.0.0",
     "@payloadcms/db-mongodb": "^1.0.0",
     "@payloadcms/plugin-cloud": "^3.0.0",
