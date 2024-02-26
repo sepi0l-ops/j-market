@@ -2,7 +2,7 @@
 
 import React from  'react'
 
-import classes from './index.module.scss'
+import classes from '../index.module.scss'
 import { inclusions, noHeaderFooterUrls, profileNavItems } from '../../../constants'
 import { usePathname } from 'next/navigation'
 import { Gutter } from '../../Gutter'
@@ -14,7 +14,7 @@ import Image from 'next/image'
 const FooterComponent = ({footer}: {footer: Footer }) => {
 
     const pathname = usePathname();
-    const navItems= footer?.navItems || [];
+    const navItems= footer?.navItems || []
 
     return (
         <footer className={noHeaderFooterUrls.includes(pathname) ? classes.hide : ''}>
@@ -44,7 +44,7 @@ const FooterComponent = ({footer}: {footer: Footer }) => {
 
                  </Link>
 
-                 <p>{footer.copyright}</p>
+                 <p>{footer?.copyright}</p>
                  <div className={classes.socialLinks}>
                     {navItems.map((item)=>{
                         const icon = item?.link?.icon as Media
