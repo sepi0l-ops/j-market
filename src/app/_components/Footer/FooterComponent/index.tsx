@@ -13,7 +13,7 @@ import Image from 'next/image'
 
 const FooterComponent = ({footer}: {footer: Footer }) => {
 
-    const pathname = usePathname();
+    const pathname = usePathname()
     const navItems= footer?.navItems || []
 
     return (
