@@ -65,7 +65,6 @@ const link: LinkType = ({ appearances, disableLabel = false, overrides = {} } = 
                 alignSelf: 'flex-end',
               },
             },
-            
           },
         ],
       },
@@ -118,10 +117,10 @@ const link: LinkType = ({ appearances, disableLabel = false, overrides = {} } = 
           },
         },
         {
-          name:'icon',
-          label:'icon',
-          type:'upload',
-          relationTo:'media',
+          name: 'icon',
+          label: 'icon',
+          type: 'upload',
+          relationTo: 'media',
         },
       ],
     })

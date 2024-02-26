@@ -97,8 +97,7 @@ export default async function Checkout() {
               },
             ],
           },
-        ]}
-      />
+        ]} customHero={undefined}      />
       <Gutter className={classes.checkoutPage}>
         <CheckoutPage settings={settings} />
       </Gutter>
