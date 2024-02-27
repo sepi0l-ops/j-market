@@ -8,7 +8,7 @@ export const PRODUCT_CATEGORIES = `categories {
 }`
 
 export const CATEGORIES = `
-  query Categories{
+  query Categories {
     Categories(limit: 300) {
       docs {
         id
@@ -17,8 +17,9 @@ export const CATEGORIES = `
           alt
           width
           height
-          url        
+          url
         }
       }
     }
-  }`
+  }
+`
