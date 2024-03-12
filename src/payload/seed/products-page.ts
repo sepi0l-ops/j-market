@@ -29,7 +29,6 @@ export const productsPage: Omit<Page, 'updatedAt' | 'createdAt' | 'id'> = {
         ],
       },
     ],
-    customHero: undefined,
   },
   layout: [
     {
