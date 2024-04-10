@@ -58,7 +58,6 @@ export const staticCart: Page = {
         ],
       },
     ],
-    customHero: undefined
   },
   layout: [
     {
